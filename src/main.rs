@@ -1,3 +1,5 @@
+mod dao;
+
 fn main() {
     dotenv::dotenv().ok();
     pretty_env_logger::init_timed();
